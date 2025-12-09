@@ -1,0 +1,6 @@
+{
+  "Name": "Filter Companies By Year",
+  "ProjectType": "Process",
+  "Description": "Workflow to read company data from two Excel files, filter companies founded before 2005, merge the filtered results into a single data table, and write the consolidated data into a new Excel file.",
+  "MainFile": "Main.xaml"
+}

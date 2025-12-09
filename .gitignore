@@ -1,0 +1,31 @@
+# Ignore UiPath temp and cache folders
+/.local
+/.settings
+/.screenshots
+/.logs
+
+# Ignore project.json user-specific settings
+project.json.user
+
+# Ignore UiPath backup files
+*.bak
+*.tmp
+
+# Ignore generated xaml cache and preview files
+*.cache
+*.preview.png
+
+# Ignore packages folder (can be restored via UiPath)
+packages/
+
+# Ignore compiled binaries (if any)
+bin/
+obj/
+################################################################################
+# Added by UiPath Studio
+# Prevent caching and local artifacts from being committed
+################################################################################
+.local
+################################################################################
+# End of UiPath Studio common ignores
+################################################################################
