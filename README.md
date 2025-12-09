@@ -2,18 +2,18 @@
 A UiPath workflow that filters and merges company data from multiple Excel files. It handles both modern .xlsx files and legacy .xls files. <br>
 The workflow reads company information, applies filters based on founding year, and outputs a combined DataTable containing only the relevant companies.
 
-## Features
+## ✨ Features
 - Reads data from .xlsx and .xls Excel files.
 - Filters companies founded before 2005.
 - Combines filtered data into a single DataTable.
 - Writes the filtered data to an output Excel file.
 - Handles legacy Excel files using Excel Application Scope where required.
 
-## Requirements
+## 📋 Requirements
 - UiPath Studio
 - UiPath.Excel.Activities package
 
-## Setup
+## ⚙️ Setup
 1. Clone or download this repository.
 2. Open the project in UiPath Studio.
 3. Ensure the Data folder contains the source Excel files (`Data1.xlsx` and `Data2.xls`).
